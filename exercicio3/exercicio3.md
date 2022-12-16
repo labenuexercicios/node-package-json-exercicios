@@ -1,6 +1,6 @@
 # Exercício 3
 Crie um joguinho simples utilizando os conceitos vistos em aula. Temos alguns exemplos abaixo para auxiliar, você pode escolher um deles ou pensar em outro se quiser!
-
+Colocamos uma dica no final desse readme de como gerar números aleatórios no JS.
 <br>
 
 ## par-ou-impar.js
@@ -37,7 +37,7 @@ A funcionalidade é:
 
 <br>
 
-# Como gerar um número aleatório em JS
+# Dica: como gerar um número aleatório em JS
 Número aleatório entre o valor min e o valor max (incluem ambas extremidades).
 ```
 function getRndInteger(min, max) {
