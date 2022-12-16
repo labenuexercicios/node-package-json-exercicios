@@ -12,11 +12,11 @@ A funcionalidade é:
     - e um número
 - o adversário é o computador (que faz uma escolha aleatória)
 - exemplos de fluxo:
-    - ```node arquivo par-ou-impar.js par 1```
+    - ```node par-ou-impar.js par 1```
         - aparece no console: "Você escolheu par e o computador escolheu impar. O resultado foi 6. Você ganhou!"
-    - ```node arquivo par-ou-impar.js impar 3```
+    - ```node par-ou-impar.js impar 3```
         - aparece no console: "Você escolheu impar e o computador escolheu par. O resultado foi 4. Você perdeu!"
-    - ```node arquivo par-ou-impar.js par 2```
+    - ```node par-ou-impar.js par 2```
         - aparece no console: "Você escolheu par e o computador escolheu impar. O resultado foi 2. Você ganhou!"
 
 <br>
