@@ -4,5 +4,5 @@ ATENÇÃO! Não forke nem clone esse repositório. Ele serve apenas como enuncia
 
 ## Relembrando
 
-O objetivo dos exercícios da tarde é desenvolver o próprio projeto back-end Labecommerce - Backend conforme o avanço das aulas.
+O objetivo dos exercícios da tarde é desenvolver o próprio projeto Labecommerce - Backend conforme o avanço das aulas.
 A cada atividade da tarde iremos implementar ou refatorar partes do projeto, além de praticar lógicas por fora (como o de hoje).
