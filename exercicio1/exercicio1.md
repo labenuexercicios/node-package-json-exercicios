@@ -8,7 +8,7 @@ O objetivo desse exercício é justamente isso:
 Lembrando que ainda veremos ao longo do back-end diversas ferramentas e tecnologias que entrarão como dependências futuramente, ou seja, o package.json será atualizado ao longo das semanas.
 
 ## Personalizando o package.json
-- Dê um nome para o projeto! Dica: Labecommerce
+- Dê um nome para o projeto! Dica: labecommerce-backend (o nome precisa ser kebab-case)
 - A versão pode deixar 1.0.0
 - O arquivo principal será o index.js
 - Adicione a propriedade "type" valendo "module" para conseguir utilizar import e export
