@@ -1,0 +1,22 @@
+{
+  "name": "labecommerce-backend",
+  "version": "1.0.0",
+  "description": "Exercício feedback node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/labenuexercicios/node-package-json-exercicios.git"
+  },
+  "keywords": [
+    "labecommerce"
+  ],
+  "author": "Giovanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/labenuexercicios/node-package-json-exercicios/issues"
+  },
+  "homepage": "https://github.com/labenuexercicios/node-package-json-exercicios#readme"
+}
