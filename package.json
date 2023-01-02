@@ -1,0 +1,28 @@
+{
+  "name": "labecommerce-backend-guilherme-padua",
+  "version": "1.0.0",
+  "description": "exercicios para fixacao backend node e packjason",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "par-ou-impar":"node par-ou-impar.js",
+    "pedra-papel-tesoura":"node pedra-papel-tesoura.js",
+    "type": "module",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guigalvao123/node-package-json-exercicios.git"
+  },
+  "keywords": [
+    "node",
+    "packjason",
+    "labenu"
+  ],
+  "author": "guilherme padua guigalvao123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guigalvao123/node-package-json-exercicios/issues"
+  },
+  "homepage": "https://github.com/guigalvao123/node-package-json-exercicios#readme"
+}
