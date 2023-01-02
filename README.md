@@ -1,7 +1,11 @@
 # Exercício da tarde - Node e package.json
 
 ATENÇÃO! Não forke nem clone esse repositório. Ele serve apenas como enunciado!<br>
-<strong>Você deve criar seu próprio repo pessoal chamado labecommerce-backend.</strong>
+<strong>Você deve criar seu próprio repo pessoal chamado labecommerce-backend. Evite trabalhar na main e crie branches para organizar cada nova implementação ou refatoração. A de hoje por exemplo, pode se chamar node-package-json.</strong>
+### Comando para criar a branch e já entrar nela
+```
+git checkout -b node-package-json
+```
 
 ## Relembrando
 
