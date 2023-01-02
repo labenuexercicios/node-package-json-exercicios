@@ -1,0 +1,19 @@
+{
+  "name": "package-json-exercicios",
+  "version": "1.0.0",
+  "description": "Exercicios para praticar - dia 02/01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasrodriguesg/node-package-json-exercicios.git"
+  },
+  "author": "Lucas Rodrigues Ammal B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasrodriguesg/node-package-json-exercicios/issues"
+  },
+  "homepage": "https://github.com/lucasrodriguesg/node-package-json-exercicios#readme"
+}
