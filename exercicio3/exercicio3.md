@@ -43,9 +43,13 @@ Número aleatório entre o valor min e o valor max (incluem ambas extremidades).
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
+
+const numeroAleatorioEntreZeroeDez = getRndInteger(0, 10)
+console.log(numeroAleatorioEntreZeroeDez)
+
+const numeroAleatorioEntreUmeNove = getRndInteger(1, 9)
+console.log(numeroAleatorioEntreUmeNove)
+
+const numeroAleatorioEntreDezeQuinze = getRndInteger(10, 15)
+console.log(numeroAleatorioEntreDezeQuinze)
 ```
-Exemplo:
-- número entre 0 e 10
-    - Math.floor(Math.random() * (10 - 0 + 1) ) + 0;
-    - que equivale a:
-        - Math.floor(Math.random() * (11) );
