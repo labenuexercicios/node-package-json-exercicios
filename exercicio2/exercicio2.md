@@ -1,6 +1,6 @@
-# Exercício 2
+# Exercício 2 (ok)
 ## index.js
-Crie o arquivo index.js e dentro dele coloque um console.log avisando que o aplicativo foi iniciado. Teste seu funcionamento executando no terminal o script de start.
+Crie o arquivo index.js e dentro dele coloque um console.log avisando que o aplicativo foi iniciado. Teste seu funcionamento executando no terminal o script de start.(ok)
 
 ## Argumentos de comando
 Vimos em aula que é possível enviar dados do terminal para o aplicativo via process.argv, então agora chegou a hora de praticar!
