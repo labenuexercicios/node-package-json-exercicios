@@ -1,0 +1,23 @@
+{
+  "name": "package-json-exercicios",
+  "version": "1.0.0",
+  "description": "ATENÇÃO! Não forke nem clone esse repositório. Ele serve apenas como enunciado!<br><br> <strong>Você deve criar seu próprio repo pessoal chamado labecommerce-backend. Evite trabalhar na main e crie branches para organizar cada nova implementação ou refatoração. A de hoje por exemplo, pode se chamar node-package-json.</strong> ### Comando para criar a branch e já entrar nela ``` git checkout -b node-package-json ```",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "par-ou-impar": "node par-ou-impar.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Medusa-85/node-package-json-exercicios.git"
+  },
+  "keywords": [],
+  "author": "Mariana Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Medusa-85/node-package-json-exercicios/issues"
+  },
+  "homepage": "https://github.com/Medusa-85/node-package-json-exercicios#readme"
+}
