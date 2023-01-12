@@ -7,4 +7,4 @@ Vimos em aula que é possível enviar dados do terminal para o aplicativo via pr
 
 Faça aparecer no console pelo menos um argumento, exemplo:
 - ao executar no terminal o comando: ```node index.js bananinha```
-    - aparece no console: "bananinha"
+    - aparece no console: "bananinha" 
