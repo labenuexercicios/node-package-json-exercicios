@@ -4,6 +4,12 @@ export type User = {
     password : string,
   }
 
+export enum Category {
+    ACCESSORIES = "Acessórios",
+    CLOTHES_AND_SHOES = "Roupas e calçados",
+    ELECTRONICS = "Eletrônicos"
+}
+
 export type Product = {
     id: string,
     name : string,

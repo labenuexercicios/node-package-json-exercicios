@@ -1,44 +1,86 @@
-import { User } from "./models/model";
-import { Product } from "./models/model";
-import { Purchase } from "./models/model";
+import { Product, User, Category, Purchase } from "./models/model";
 
-const users: User[] = [
-    {
-        id: "1",
-        email : "f@gmail.com",
-        password : "123456"
-    },
-    {
-        id: "2",
-        email : "g@gmail.com",
-        password : "1234567"
+import { users } from "./database"
+import { products } from "./database"
+import { purchases } from "./database"
+
+function createUser(id: string, email: string, password: string){
+    const newUser: User = {
+        id: id,
+        email: email,
+        password: password
     }
-]
+    users.push(newUser);
+    console.log("Cadastro realizado com sucesso")
+}
 
-const products: Product[] = [
-    {
-        id: "1",
-        name : 'PS5',
-        price : 4900,
-        category: "video games"
-    },
-    {
-        id: "2",
-        name : 'notebook',
-        price : 3900,
-        category: "computador"
+createUser("3", "h@gmail.com", "123456")
+
+function getAllUsers() {
+    users.map((user: User) => 
+    console.log(user))
+}
+
+getAllUsers() 
+
+
+function createProduct(id: string, name: string, price: number, category:Category){
+    const newProduct: Product = {
+        id,
+        name,
+        price,
+        category
     }
-]
+    products.push(newProduct);
+    console.log("Cadastro realizado com sucesso")
+}
 
-const purchases: Purchase[] = [
-    {
-        userId: "1",
-        productId: "1",
-        quantity: 1,
-        totalPrice: 4900
+createProduct("4", "fone", 200, Category.ELECTRONICS)
+
+function getAllProducts() {
+    products.map((product: Product) => 
+    console.log(product))
+}
+
+getAllProducts()
+
+function getProductById(id: string) {
+    const result = products.filter((product: Product) => {
+        return (product.id.includes(id))
+    })
+    console.log(result)
+}
+
+getProductById("1")
+
+
+function queryProductsByName(searchProduct: string) {
+    const result = products.filter((product: Product) => {
+        return (product.name.toLowerCase().includes(searchProduct.toLowerCase()))
+    })
+    console.log(result)
+}
+
+queryProductsByName("PS")
+
+function createPurchase(userId: string, productId: string, quantity: number, totalPrice: number) {
+    const newPurchase: Purchase = {
+        userId,
+        productId,
+        quantity,
+        totalPrice
     }
-]
+    purchases.push(newPurchase);
+    console.log("Compra realizada com sucesso")
+}
 
-console.log(users[1])
-console.log(products[0])
-console.log(purchases[0])
+createPurchase("2", "1", 1, 3900)
+
+function getAllPurchasesFromUserId(userIdToSearch: string){
+    const result = purchases.filter((purchase: Purchase) => {
+        return (purchase.userId.includes(userIdToSearch))
+    })
+    console.log(result)
+}
+
+getAllPurchasesFromUserId("1")
