@@ -159,3 +159,90 @@ app.post('/purchases', (req: Request, res: Response) => {
     purchases.push(newPurchase)
     res.status(201).send("compra registrada com sucesso")
 })
+
+//Get Products by id
+app.get("/products/:id", (req: Request, res: Response) => {
+    const id = req.params.id
+
+    const result = products.find((product) => product.id === id)
+
+    res.status(200).send(result)
+})
+
+//Get User Purchases by User id
+app.get("/purchases/:id", (req: Request, res: Response) => {
+    const id = req.params.id
+
+    const result = purchases.find((purchase) => purchase.userId === id)
+
+    res.status(200).send(result)
+})
+
+//delete user
+app.delete("/users/:id", (req: Request, res: Response) => {
+    const id = req.params.id
+
+  const userIndex = users.findIndex((user) => user.id === id)
+
+  if (userIndex >= 0) {
+    users.splice(userIndex, 1)
+  }
+
+  res.status(200).send("Item deletado com sucesso")
+})
+
+//delete product
+app.delete("/products/:id", (req: Request, res: Response) => {
+    const id = req.params.id
+
+  const productIndex = products.findIndex((product) => product.id === id)
+
+  if (productIndex >= 0) {
+    products.splice(productIndex, 1)
+  }
+
+  res.status(200).send("Item deletado com sucesso")
+})
+
+
+
+
+//put products
+app.put("/products/:id", (req: Request, res: Response) => {
+    const id = req.params.id
+    
+    const newId= req.body.id as string | undefined
+    const newName= req.body.name as string | undefined
+    const newPrice = req.body.price as number 
+    const newCategory= req.body.category as Category | undefined
+
+    const productsToEdit = products.find((product) => product.id === id)
+
+    if(productsToEdit) {
+        productsToEdit.id = newId || productsToEdit.id //se vier undifined, mantem o id que já existia
+        productsToEdit.name = newName || productsToEdit.name
+        productsToEdit.category = newCategory || productsToEdit.category 
+
+        productsToEdit.price = isNaN(newPrice) ? productsToEdit.price : newPrice // para number, precisamos verificar se é number
+    }   
+
+    res.status(200).send("atualização realizada com sucesso")
+})
+
+//put user
+app.put("/users/:id", (req: Request, res: Response) => {
+    const id = req.params.id
+    
+    const newId= req.body.id as string | undefined
+    const newEmail= req.body.email as string | undefined
+    const newPassword = req.body.password as string | undefined
+
+    const userToEdit = users.find((user) => user.id === id)
+
+    if(userToEdit) {
+        userToEdit.id = newId || userToEdit.id //se vier undifined, mantem o id que já existia
+        userToEdit.email = newEmail || userToEdit.email
+        userToEdit.password = newPassword || userToEdit.password    }   
+
+    res.status(200).send("atualização realizada com sucesso")
+})
