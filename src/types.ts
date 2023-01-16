@@ -4,11 +4,17 @@ export type TUser = {
     password: string
 }
 
+export enum CATEGORY {
+    LIGTH_ROAST = "Torra Clara",
+    MEDIUM_ROAST = "Torra Média",
+    DARK_ROAST = "Torra Escura"
+}
+
 export type TProduct = {
     id: string,
     name: string,
     price: number,
-    category: string
+    category: CATEGORY
 }
 
 export type TPurchase = {
