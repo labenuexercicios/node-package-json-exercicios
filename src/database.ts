@@ -1,4 +1,4 @@
-import { TProduct, TPurchase, TUser } from "./types";
+import { CATEGORY, TProduct, TPurchase, TUser } from "./types";
 
 export const users: TUser[] = [
     {
@@ -18,13 +18,13 @@ export const products: TProduct[] = [
         id: "b001",
         price: 60 ,
         name: "Café Geisha",
-        category: "Café Especial"
+        category: CATEGORY.LIGTH_ROAST
     },
     {
         id: "b002",
         price: 80 ,
         name: "Café Acaiá",
-        category: "Café Especial"
+        category: CATEGORY.MEDIUM_ROAST
     }
 ]
 
@@ -40,5 +40,34 @@ export const purchase: TPurchase[] = [
         productld: "Café Acaiá",
         quantity: 3,
         totalPrice: 240
-    },
+    }
 ]
+
+export function createUser(id: string, email: string, password: string) : string{
+    users.push({
+        id,
+        email,
+        password
+    });
+    return ("Cadastro realizado com sucesso!");
+}
+
+export function createProduct(id: string, name: string, price: number, category: CATEGORY) : string{
+    products.push({
+    id,
+    name,
+    price,
+    category
+    });
+    return ("Produto criado com sucesso!");
+}
+
+export function createPurchase(userld: string, productld: string, quantity: number, totalPrice: number) : string{
+    purchase.push({
+    userld,
+    productld,
+    quantity,
+    totalPrice
+    });
+    return ("Compra realizada com sucesso!");
+}
