@@ -30,14 +30,14 @@ export const products: TProduct[] = [
 
 export const purchase: TPurchase[] = [
     {
-        userld: "a001",
-        productld: "Café Geisha",
+        userId: "a001",
+        productId: "Café Geisha",
         quantity: 2,
         totalPrice: 120
     },
     {
-        userld: "a002",
-        productld: "Café Acaiá",
+        userId: "a002",
+        productId: "Café Acaiá",
         quantity: 3,
         totalPrice: 240
     }
@@ -62,10 +62,10 @@ export function createProduct(id: string, name: string, price: number, category:
     return ("Produto criado com sucesso!");
 }
 
-export function createPurchase(userld: string, productld: string, quantity: number, totalPrice: number) : string{
+export function createPurchase(userId: string, productId: string, quantity: number, totalPrice: number) : string{
     purchase.push({
-    userld,
-    productld,
+    userId,
+    productId,
     quantity,
     totalPrice
     });
