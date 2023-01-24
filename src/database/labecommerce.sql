@@ -1,3 +1,4 @@
+-- Active: 1674396086099@@127.0.0.1@3306
 --criando tabela users
 CREATE TABLE users (
     id TEXT PRIMARY KEY UNIQUE NOT NULL,
@@ -44,15 +45,31 @@ WHERE name LIKE "produto2%";
 
 CREATE TABLE 
 purchases (
-    userId TEXT PRIMARY KEY NOT NULL,
-    productId TEXT NOT NULL,
-    quantity INTEGER NOT NULL,
-    totalPrice REAL NOT NULL
+    id TEXT PRIMARY KEY UNIQUE NOT NULL,
+    totalPrice REAL NOT NULL,
+    paid INTEGER NOT NULL, --boolean 0 false 1 true
+    delivered_at TEXT,
+    buyer_id TEXT NOT NULL,
+    FOREIGN KEY (buyer_id) REFERENCES users (id) 
 );
-INSERT INTO purchases (userId, productId, quantity, totalPrice)
-VALUES ("a001", "p003", 1, 300),
-("a002", "p003", 2, 600);
+INSERT INTO purchases (id, totalPrice, paid, delivered_at, buyer_id)
+VALUES ("c001", 3000, 1, NULL, "a001"),
+("c002", 4000, 0, NULL, "a001"),
+("c003", 2000, 1, NULL, "a002"),
+("c004", 1000, 0, NULL, "a003");
 
+
+--consultar compras de usuario
+SELECT users.id AS user_id,
+users.email,
+purchases.id AS purchase_id,
+purchases.totalPrice
+FROM users
+INNER JOIN purchases
+ON users.id = purchases.buyer_id
+WHERE users.id= "a001";
+
+DROP TABLE purchases;
 
 SELECT * FROM purchases;
 
