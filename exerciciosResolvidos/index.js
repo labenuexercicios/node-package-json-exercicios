@@ -5,5 +5,5 @@ console.log("Aplicativo iniciado com sucesso")
 
 //Exercicio 2.2 - Faça aparecer no console pelo menos um argumento. via process.argv
 const nome = process.argv [2]
-console.log(`Olá, ${nome}, seu aplicativo foi iniciado com sucesso!`)
+console.log(`Olá ${nome}, seu aplicativo foi iniciado com sucesso!`)
 
