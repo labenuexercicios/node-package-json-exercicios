@@ -118,3 +118,45 @@ LIMIT 20;
 SELECT * FROM products
 WHERE price >=200 AND price <=1000
 ORDER BY price ASC;
+
+--criando tabela de relação entre produtos e pedidos
+CREATE TABLE purchases_products(
+  purchase_id  TEXT NOT NULL,
+  product_id TEXT NOT NULL,
+  quantity INTEGER NOT NULL,
+  FOREIGN KEY (purchase_id) REFERENCES purchases(id),
+  FOREIGN KEY (product_id) REFERENCES products(id)
+);
+
+DROP TABLE purchases_products;
+
+SELECT * FROM purchases_products;
+
+--criando a lista
+INSERT INTO purchases_products (purchase_id, product_id, quantity)
+VALUES("c001", "p001", 2),
+("c002", "p003", 3);
+
+SELECT * FROM purchases_products
+INNER JOIN purchases
+ON purchases_products.purchase_id = purchases.id
+INNER JOIN products
+ON purchases_products.product_id = products.id;
+
+--usando nomes intuitivos
+SELECT 
+products.id AS productId ,
+products.name AS productName ,
+products.price ,
+products.category,
+purchases.id AS purchaseId,
+purchases.totalPrice AS totalPrice,
+purchases.paid,
+purchases.delivered_at AS deliverDay,
+purchases.buyer_id AS buyerId
+FROM purchases_products
+INNER JOIN purchases
+ON purchases_products.purchase_id = purchases.id
+INNER JOIN products
+ON purchases_products.product_id = products.id;
+
