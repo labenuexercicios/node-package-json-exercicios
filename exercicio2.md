@@ -5,7 +5,7 @@ Crie o arquivo index.js e dentro dele coloque um console.log avisando que o apli
 # Exercício 2 - Parte 2
 
 ## exercicios/node-package-json.js
-Crie uma pasta chamada ```exercicios``` e nela crie um arquivo chamado ```node-package-json.js``` e implemente um console.log nele.
+Crie uma pasta chamada ```exercicios```, dentro dela crie um arquivo chamado ```node-package-json.js``` e por fim implemente um console.log nele.
 Rode no terminal o comando ```node exercicios/node-package-json.js``` e confirme que se seu log aparece no console.
 
 ## Argumentos de comando
