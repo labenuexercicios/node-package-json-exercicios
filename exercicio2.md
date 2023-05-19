@@ -6,7 +6,7 @@ Teste seu funcionamento executando no terminal o script de start que você confi
 # Exercício 2 - Parte 2
 
 ## exercicios/node-package-json.js
-Crie uma pasta chamada ```exercicios```, dentro dela crie um arquivo chamado ```node-package-json.js``` e por fim implemente um console.log nele.
+Crie uma pasta chamada ```exercicios```, dentro dela crie um arquivo chamado ```node-package-json.js``` e por fim implemente um console.log nele.<br>
 Rode no terminal o comando ```node exercicios/node-package-json.js``` e confirme que se seu log aparece no console.
 
 ## Argumentos de comando
