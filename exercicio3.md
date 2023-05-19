@@ -1,6 +1,7 @@
 # Exercício 3
-Crie um joguinho simples utilizando os conceitos vistos em aula. Temos alguns exemplos abaixo para auxiliar, você pode escolher um deles ou pensar em outro se quiser!
-Colocamos uma dica no final desse readme de como gerar números aleatórios no JS.
+Dentro do ```arquivo exercicios/node-package-json.js```, crie um joguinho simples utilizando os conceitos vistos em aula.<br>
+Trouxemos algumas ideias abaixo para te ajudar! Você pode escolher uma delas ou pensar em outra se quiser!<br>
+Colocamos uma dica no final desse arquivo de markdown (.md) um exemplo de como gerar números aleatórios no JS.
 <br>
 
 ## par-ou-impar.js
