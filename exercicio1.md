@@ -1,3 +1,6 @@
+# Atenção
+Por enquanto estamos aprendendo as principais tecnologias que serão utilizadas no back-end e por isso não estamos implementando o projeto. Os exercícios dessa aula focam no uso do node e algumas práticas de lógica de programação.
+
 # Exercício 1
 Para iniciar um aplicativo node precisamos configurar suas dependências.<br>
 O objetivo desse exercício é justamente isso:
