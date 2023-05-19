@@ -13,10 +13,13 @@ A funcionalidade é:
 - o adversário é o computador (que faz uma escolha aleatória)
 - exemplos de fluxo:
     - ```node par-ou-impar.js par 1```
+        - o computador gera um número aleatório entre 0 e 5
         - aparece no console: "Você escolheu par e o computador escolheu impar. O resultado foi 6. Você ganhou!"
     - ```node par-ou-impar.js impar 3```
+        - o computador gera um número aleatório entre 0 e 5
         - aparece no console: "Você escolheu impar e o computador escolheu par. O resultado foi 4. Você perdeu!"
     - ```node par-ou-impar.js par 2```
+        - o computador gera um número aleatório entre 0 e 5
         - aparece no console: "Você escolheu par e o computador escolheu impar. O resultado foi 2. Você ganhou!"
 
 <br>
@@ -44,12 +47,12 @@ function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
 
-const numeroAleatorioEntreZeroeDez = getRndInteger(0, 10)
-console.log(numeroAleatorioEntreZeroeDez)
+const numeroAleatorioEntreZeroEDez = getRndInteger(0, 10)
+console.log(numeroAleatorioEntreZeroEDez)
 
-const numeroAleatorioEntreUmeNove = getRndInteger(1, 9)
-console.log(numeroAleatorioEntreUmeNove)
+const numeroAleatorioEntreUmENove = getRndInteger(1, 9)
+console.log(numeroAleatorioEntreUmENove)
 
-const numeroAleatorioEntreDezeQuinze = getRndInteger(10, 15)
-console.log(numeroAleatorioEntreDezeQuinze)
+const numeroAleatorioEntreDezEQuinze = getRndInteger(10, 15)
+console.log(numeroAleatorioEntreDezEQuinze)
 ```
