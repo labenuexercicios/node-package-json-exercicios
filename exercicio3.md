@@ -1,4 +1,5 @@
 # Exercício 3
+Dentro da pasta ```exercicios```, crie outra pasta chamada ```node-package-json``` e coloque o arquivo ```node-package-json.js``` dentro dela. Vamos criar um arquivo com nome baseado no jogo que você for desenvolver dentro da pasta ```exercicios/node-package-json```.<br>
 Dentro do ```arquivo exercicios/node-package-json.js```, crie um joguinho simples utilizando os conceitos vistos em aula.<br>
 Trouxemos algumas ideias abaixo para te ajudar! Você pode escolher uma delas ou pensar em outra se quiser!<br>
 Colocamos uma dica no final desse arquivo de markdown (.md) um exemplo de como gerar números aleatórios no JS.
