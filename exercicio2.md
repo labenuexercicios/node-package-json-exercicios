@@ -1,7 +1,7 @@
 # Exercício 2 - Parte 1
 ## index.js
 Crie o arquivo index.js e dentro dele coloque um console.log avisando que o aplicativo foi iniciado. Teste seu funcionamento executando no terminal o script de start que você configurou no exercício 1.
-
+<br><br>
 # Exercício 2 - Parte 2
 
 ## exercicios/node-package-json.js
