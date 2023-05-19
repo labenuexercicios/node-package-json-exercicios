@@ -32,10 +32,13 @@ A funcionalidade é:
 - o adversário é o computador (que faz uma escolha aleatória)
 - exemplos de fluxo:
     - ```node pedra-papel-tesoura.js pedra```
+        - o computador escolhe aleatoriamente entre pedra, papel ou tesoura
         - aparece no console: "Você escolheu pedra e o computador escolheu tesoura. Você ganhou!"
     - ```node pedra-papel-tesoura.js papel```
+        - o computador escolhe aleatoriamente entre pedra, papel ou tesoura
         - aparece no console: "Você escolheu papel e o computador escolheu tesoura. Você perdeu!"
     - ```node pedra-papel-tesoura.js tesoura```
+        - o computador escolhe aleatoriamente entre pedra, papel ou tesoura
         - aparece no console: "Você escolheu tesoura e o computador escolheu tesoura. Empate!"
 
 <br>
