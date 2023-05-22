@@ -5,7 +5,7 @@ Colocamos uma dica no final desse arquivo de markdown (.md): um exemplo de como 
 <br>
 
 ## par-ou-impar.js
-Dentro da pasta ```exercicios/node-package-json```, crie o arquivo par-ou-impar.js e implemente o famoso joguinho!
+Dentro da pasta ```exercicios/```, crie o arquivo par-ou-impar.js e implemente o famoso joguinho!
 A funcionalidade é:
 - jogador é você, dev
 - suas escolhas devem ser enviadas via argumentos no comando do terminal (process.argv)
@@ -26,7 +26,7 @@ A funcionalidade é:
 <br>
 
 ## pedra-papel-tesoura.js
-Dentro da pasta ```exercicios/node-package-json```, crie o arquivo pedra-papel-tesoura.js e implemente o famoso joguinho!
+Dentro da pasta ```exercicios/```, crie o arquivo pedra-papel-tesoura.js e implemente o famoso joguinho!
 A funcionalidade é:
 - jogador é você, dev
 - sua escolha deve ser enviada via argumento no comando do terminal (process.argv)
