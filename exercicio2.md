@@ -14,7 +14,7 @@ Vimos em aula que é possível enviar dados do terminal para o aplicativo via pr
 
 No arquivo ```exercicios/node-package-json/exercicio2.js```, faça aparecer no console pelo menos um argumento, por exemplo:
 - ao executar no terminal o comando: ```node exercicios/node-package-json/exercicio2.js meuArgumento```
-    - apareça no console: "bananinha"
+    - apareça no console: "meuArgumento"
 
 Dica:
 - no terminal, entre com ```cd``` na pasta ```exercicios/node-package-json``` para não precisar digitar o caminho inteiro da pasta para executar o arquivo exercicio2.js
