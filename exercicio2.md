@@ -16,7 +16,7 @@ No arquivo ```exercicios/node-package-json/exercicio2.js```, faça aparecer no c
 - ao executar no terminal o comando: ```node exercicios/node-package-json/exercicio2.js meuArgumento```
     - apareça no console: "meuArgumento"
 
-Dica:
+### Dica
 - no terminal, entre com ```cd``` na pasta ```exercicios/node-package-json``` para não precisar digitar o caminho inteiro da pasta para executar o arquivo exercicio2.js
     - ```cd exercicios/node-package-json```
     - ```node exercicio2.js meuArgumento```
