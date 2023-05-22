@@ -1,13 +1,11 @@
 # Exercício 3
-Dentro da pasta ```exercicios```, crie outra pasta chamada ```node-package-json``` e coloque o arquivo ```node-package-json.js``` dentro dela.<br>
-<br>
-Dentro da pasta ```exercicios/node-package-json```, crie um joguinho simples utilizando os conceitos vistos em aula.<br>
-Trouxemos algumas ideias abaixo para te ajudar! Você pode escolher uma delas ou pensar em outra se quiser!<br>
-Colocamos uma dica no final desse arquivo de markdown (.md) um exemplo de como gerar números aleatórios no JS.
+Nesse exercício você implementará um joguinho simples utilizando os conceitos vistos em aula.<br>
+Trouxemos algumas ideias abaixo para te ajudar. Você pode escolher uma delas ou pensar em outra se quiser!<br>
+Colocamos uma dica no final desse arquivo de markdown (.md): um exemplo de como gerar números aleatórios no JS.
 <br>
 
 ## par-ou-impar.js
-Crie o arquivo par-ou-impar.js e implemente o famoso joguinho!
+Dentro da pasta ```exercicios/node-package-json```, crie o arquivo par-ou-impar.js e implemente o famoso joguinho!
 A funcionalidade é:
 - jogador é você, dev
 - suas escolhas devem ser enviadas via argumentos no comando do terminal (process.argv)
@@ -28,7 +26,7 @@ A funcionalidade é:
 <br>
 
 ## pedra-papel-tesoura.js
-Crie o arquivo pedra-papel-tesoura.js e implemente o famoso joguinho!
+Dentro da pasta ```exercicios/node-package-json```, crie o arquivo pedra-papel-tesoura.js e implemente o famoso joguinho!
 A funcionalidade é:
 - jogador é você, dev
 - sua escolha deve ser enviada via argumento no comando do terminal (process.argv)
