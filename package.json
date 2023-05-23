@@ -1,0 +1,15 @@
+{
+  "name": "labecommerce-backend",
+  "version": "1.0.0",
+  "description": "Exercícios para o aprimoramentod a lógica de programação.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "startIndex": "node index.js",
+    "par-ou-impar": "node par-ou impar.js",
+    "pedra-papel-tesoura": "node pedra-papel tesoura.js"
+  },
+  "keywords": [],
+  "author": "Lucas Breia",
+  "license": "ISC"
+}
