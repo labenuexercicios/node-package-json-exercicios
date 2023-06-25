@@ -13,10 +13,10 @@ Rode no terminal o comando ```node exercicios/process-argv.js``` e confirme que 
 Vimos em aula que é possível enviar dados do terminal para o aplicativo via process.argv, então vamos praticar!
 
 No arquivo ```exercicios/process-argv.js```, faça aparecer no console pelo menos um argumento, por exemplo:
-- ao executar no terminal o comando: ```node exercicios/process-argv.js meuArgumento```
-    - apareça no console: "meuArgumento"
+- ao executar no terminal o comando: ```node exercicios/process-argv.js meuArgumento1 meuArgumento2```
+    - apareça no console: "meuArgumento1" e "meuArgumento2"
 
 ### Dica
 - no terminal, entre com ```cd``` na pasta ```exercicios/``` para não precisar digitar o caminho inteiro da pasta para executar o arquivo ```process-argv.js```.
     - ```cd exercicios```
-    - ```node process-argv.js meuArgumento```
+    - ```node process-argv.js meuArgumento1 meuArgumento2```
