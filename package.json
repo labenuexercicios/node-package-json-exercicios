@@ -1,0 +1,13 @@
+{
+  "name": "kebab-case",
+  "version": "1.0.0",
+  "description": "Exercícios de fixação",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start" : "clear && node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
